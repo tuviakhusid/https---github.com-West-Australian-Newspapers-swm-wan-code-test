@@ -1,5 +1,5 @@
 import { bottomLeftArticleData, bottomMiddleArticleData, bottomRightArticleData, feedArticleData, mainArticleData, topRightArticleData } from "../../dataConstants";
-import ArticleComponent from "../../functionalComponents/article/article";
+import ArticleComponent from "../../FunctionalComponents/article/article";
 import './news.scss';
 export default function News() {
     return (
