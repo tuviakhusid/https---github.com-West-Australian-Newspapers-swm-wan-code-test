@@ -1,7 +1,6 @@
 import data from '../src/assets/data/news.json';
 import { IInputBase, articleType } from "./interfaces";
 const dataNews=data.articles;
-console.log(dataNews)
 export const mainArticleData: IInputBase = {
     author: dataNews[0].byline.text,
     header: dataNews[0].head,

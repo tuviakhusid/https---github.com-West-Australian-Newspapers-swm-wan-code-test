@@ -1,7 +1,6 @@
 import { articleType, IInputBase } from "../../interfaces"
 
 const ArticleComponent: React.FC<IInputBase> = ({ ...props }) => {
-  //const [articleLayout, setArticleLayout] = useState('');
   let articleLayout;
   switch (props.type) {
     case articleType.Main:
