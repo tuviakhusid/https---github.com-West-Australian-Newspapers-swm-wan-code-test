@@ -44,3 +44,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Description
+1. There was no figma. I created a schematic design that might differ from the original one as I didn't have exact sizes;
+2. The original JSON is not consistent: some of the URL's didn't include a folder (before a slash);
+3. I created my custom data constant list from the JSON as I couldn't iterate the array as is and achieve the same result. Some more properties were required.
+4. The another reason is that the design is a bit inconsistent for the same components: in item 3 no gap between the content and author. However, in all the bottom items there is a gap between the content and the author;
+5. I created a bottom border only for iterated items. Looks like the page was glued manually and I understood that all other borders are result of that as they look like not part of the design.
+6. As required I didn't use any CSS libraries, but only vanilla CSS and SASS;
